@@ -90,6 +90,30 @@ p {
 .content {
   margin: 30px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 45px;
+  margin-left: 20px;
+}
+nav a {
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a,
+nav p {
+  color: var(--primary-color);
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -109,5 +133,8 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
