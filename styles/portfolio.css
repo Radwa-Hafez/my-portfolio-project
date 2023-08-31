@@ -36,7 +36,7 @@ p {
 .hero {
   background: var(--secondry-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -91,17 +91,17 @@ p {
   font-family: var(--default-font-family);
 }
 .content p {
-  line-height: 1;
+  line-height: 1.5;
   margin: 0;
   font-size: 14px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
 }
-footer .contact-box {
+.contact-box {
   background: var(--secondry-color);
   padding: 30px 120px;
   border-radius: 10px;
@@ -172,9 +172,6 @@ nav p {
   .project-description {
     padding: 0;
     text-align: center;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   nav a {
     font-size: 14px;
