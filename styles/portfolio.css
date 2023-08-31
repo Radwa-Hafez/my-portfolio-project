@@ -24,6 +24,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -55,6 +58,10 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  color: var(--primary-color);
+  background: white;
+}
 .btn-branding-outline {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -62,6 +69,10 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+  color: white;
+  background: var(--primary-color);
 }
 .project-description {
   padding: 120px 60px;
@@ -89,6 +100,36 @@ p {
 }
 .content {
   margin: 30px;
+}
+footer .contact-box {
+  background: var(--secondry-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondry-color);
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
 nav {
   padding: 20px 0;
@@ -123,6 +164,7 @@ nav p {
   h2 {
     font-size: 44px;
   }
+
   .content-container {
     text-align: center;
     padding: 0;
